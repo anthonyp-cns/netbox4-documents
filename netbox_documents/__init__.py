@@ -1,4 +1,4 @@
-from extras.plugins import PluginConfig
+from netbox.plugins import PluginConfig
 
 class NetboxDocuments(PluginConfig):
     name = 'netbox_documents'
@@ -14,7 +14,6 @@ class NetboxDocuments(PluginConfig):
         "enable_location_documents": True,
         "enable_circuit_documents": True,
         "enable_device_documents": True,
-        "enable_device_type_documents": True, 
         "enable_vm_documents": True,
         "enable_circuit_provider_documents": True,
         "enable_navigation_menu": True,
